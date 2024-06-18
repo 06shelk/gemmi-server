@@ -21,3 +21,6 @@ CREATE TABLE WordGame (
 select * from gemmi;
 select * from WordGame;
 select * from virtualGame;
+
+ALTER TABLE virtualGame
+MODIFY COLUMN Score FLOAT;
